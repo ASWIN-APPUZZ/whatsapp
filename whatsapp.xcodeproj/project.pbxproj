@@ -17,6 +17,8 @@
 		CE5DC8162AAEF50D00181AC8 /* whatsappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DC8152AAEF50D00181AC8 /* whatsappTests.swift */; };
 		CE5DC8202AAEF50D00181AC8 /* whatsappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DC81F2AAEF50D00181AC8 /* whatsappUITests.swift */; };
 		CE5DC8222AAEF50D00181AC8 /* whatsappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DC8212AAEF50D00181AC8 /* whatsappUITestsLaunchTests.swift */; };
+		CE5DC82F2AAF11A100181AC8 /* chatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DC82E2AAF11A100181AC8 /* chatTableViewCell.swift */; };
+		CE5DC8312AAF178900181AC8 /* chatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DC8302AAF178900181AC8 /* chatTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		CE5DC81B2AAEF50D00181AC8 /* whatsappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = whatsappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5DC81F2AAEF50D00181AC8 /* whatsappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatsappUITests.swift; sourceTree = "<group>"; };
 		CE5DC8212AAEF50D00181AC8 /* whatsappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatsappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE5DC82E2AAF11A100181AC8 /* chatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatTableViewCell.swift; sourceTree = "<group>"; };
+		CE5DC8302AAF178900181AC8 /* chatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				CE5DC7FD2AAEF50B00181AC8 /* SceneDelegate.swift */,
 				CE5DC7FF2AAEF50B00181AC8 /* ViewController.swift */,
 				CE5DC8012AAEF50B00181AC8 /* Main.storyboard */,
+				CE5DC8302AAF178900181AC8 /* chatTableViewController.swift */,
+				CE5DC82E2AAF11A100181AC8 /* chatTableViewCell.swift */,
 				CE5DC8072AAEF50D00181AC8 /* Assets.xcassets */,
 				CE5DC8092AAEF50D00181AC8 /* LaunchScreen.storyboard */,
 				CE5DC80C2AAEF50D00181AC8 /* Info.plist */,
@@ -261,6 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5DC82F2AAF11A100181AC8 /* chatTableViewCell.swift in Sources */,
+				CE5DC8312AAF178900181AC8 /* chatTableViewController.swift in Sources */,
 				CE5DC8002AAEF50B00181AC8 /* ViewController.swift in Sources */,
 				CE5DC8062AAEF50B00181AC8 /* whatsapp.xcdatamodeld in Sources */,
 				CE5DC7FC2AAEF50B00181AC8 /* AppDelegate.swift in Sources */,
